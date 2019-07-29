@@ -17,7 +17,7 @@
     <pd:returnBindings>
         <root>
             <param>
-                <xsl:value-of select="concat(upper-case($Start/root/param), $Start/root/param1)"/>
+                <xsl:value-of select="concat($Start/root/param, $Start/root/param1)"/>
             </param>
         </root>
     </pd:returnBindings>
